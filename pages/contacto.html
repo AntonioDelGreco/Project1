@@ -39,46 +39,30 @@
 
   <main class="contenedor">
     <section>
-      <h3>Dejanos tu consulta</h3>
-      <img src="" alt="" />
-      <fieldset class="formulario">
-        <form action="#">
-          <div>
-            <label for="name">Nombre</label>
-            <input type="text" name="name" placeholder="ej: Diego" required />
+      <h3 class="centrar-texto" >Dejanos tu consulta</h3>
+      <div class="contac-bg"></div>
+        <form class="formulario" action="#">
+          <div class="campo">
+            <label class="campo__label" for="name">Nombre:</label>
+            <input class="campo__input" type="text" id="name" name="name" placeholder="ej: Diego" required />
           </div>
-          <div>
-            <label for="lastname">Apellido</label>
-            <input type="text" name="lastname" placeholder="ej: Antonio" required />
+          <div class="campo">
+            <label class="campo__label" for="lastname">Apellido:</label>
+            <input class="campo__input" type="text" id="lastname" name="lastname" placeholder="ej: Antonio" required />
           </div>
-          <div>
-            <label for="email">Escribe tu email</label>
-            <input type="email" name="email" placeholder="ejemplo@mail.com" required />
+          <div class="campo">
+            <label class="campo__label" for="email">Email:</label>
+            <input class="campo__input" type="email" id="email" name="email" placeholder="ejemplo@mail.com" required />
           </div>
-          <div>
-            <label for="comentarios">Comentarios que necesites agregar:</label>
-            <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+          <div class="campo">
+            <label class="campo__label" for="comentarios">Comentarios:</label>
+            <textarea class="campo__input campo__input--textarea" name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
           </div>
-          <div>
+          <div class="campo__btn">
             <input class="boton" type="submit" value="Enviar" />
             <input class="boton" type="reset" value="Deshacer datos" />
           </div>
         </form>
-      </fieldset>
-    </section>
-    <section>
-      <fieldset>
-        <legend>O suscribete a nuestro Newsletter</legend>
-        <form action="#">
-          <div>
-            <label for="email">Escribe tu email</label>
-            <input type="email" name="email" placeholder="ejemplo@mail.com">
-          </div>
-          <div>
-            <input class="boton" type="submit" value="Suscribirse">
-          </div>
-        </form>
-      </fieldset>
     </section>
   </main>
 
