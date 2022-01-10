@@ -1,3 +1,5 @@
+/* GLOBALES */
+/* VARIABLES */
 * {
   padding: 0;
   margin: 0; }
@@ -9,14 +11,14 @@ html {
 body {
   font-size: 16px;
   line-height: 2;
-  font-family: 'Kanit', sans-serif;
+  font-family: "Kanit", sans-serif;
   background-color: #f3c193; }
   body li {
     list-style: none; }
   body a {
     text-decoration: none; }
   body h1, body h2, body h3, body h4 {
-    font-family: 'Outfit', sans-serif;
+    font-family: "Outfit", sans-serif;
     padding: 2rem; }
   body h1 {
     font-size: 4.8rem;
@@ -39,7 +41,7 @@ body {
     max-width: 120rem;
     width: 90%;
     margin: 0 auto; }
-  body .boton {
+  body .boton, body .boton:hover .boton_otro {
     width: 100%;
     padding: 1rem;
     margin: 1rem;
@@ -51,9 +53,17 @@ body {
     border: none;
     border-radius: 1rem;
     transition: all ease-out 0.2s; }
-    body .boton:hover {
-      transform: scale(1.05); }
+    body .boton:hover, body .boton:hover .boton_otro:hover {
+      transform: scale(1.05);
+      /*  */
+      /*  */ }
+      body .boton:hover .boton_otro {
+        color: wheat;
+        background-color: black; }
 
+/* BG PRINCIPALES */
+/* NAV  */
+/* FOOTER */
 .inicio {
   background-image: url(../img/inicio.jpg);
   height: 60rem;
