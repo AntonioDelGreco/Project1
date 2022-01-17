@@ -1,0 +1,28 @@
+.cursos{
+    background-image: url(../img/cursos.jpg);
+    @include bg;
+    @include nav;
+}
+
+.orden{
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 5rem;
+    @media (min-width: 768px) {
+        grid-template-columns: 1fr 2fr;
+    }
+    .imagen-dos{
+        @extend .imagen;
+        margin-top: 4rem;
+    }
+    .boton-dos{
+        @extend .boton;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.footer{
+    @include footer;
+}

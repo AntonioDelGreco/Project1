@@ -1,0 +1,19 @@
+.inicio{
+    background-image: url(../img/inicio.jpg);
+     @include bg;
+    @include nav;
+}
+.contenido-inicio{
+    padding: 2rem;
+    @media (min-width: 768px) {
+          display: flex;
+          gap: 4rem;
+      } 
+      .imgen{
+          border-radius: 2.5rem;
+      }
+}
+.footer{
+    @include footer;
+}
+

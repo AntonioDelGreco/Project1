@@ -1,0 +1,31 @@
+.pasteleria{
+    background-image: url(../img/galería.jpg);
+    @include bg;
+    @include nav;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    padding: 5rem;
+    @media (min-width: 500px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (min-width: 800px) {
+        grid-template-columns: repeat(4, 1fr);
+    }    
+    .columna div img {
+        margin-bottom: 4rem;
+        transition: all 500ms ease;
+        border-radius: 1.5rem;
+        box-shadow: 0.5rem 1rem 1.5rem rgba(0,0,0,0.50);
+        &:hover {
+            transform: scale(1.4);
+        }
+    }
+}
+
+.footer{
+    @include footer;
+}

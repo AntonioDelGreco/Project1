@@ -1,1 +1,22 @@
-@import "inicio";
+@import "./globales/variables";
+@import "./globales/general";
+@import "./globales/mixins";
+
+
+@import "./bases/inicio";
+@import "./bases/historia";
+@import "./bases/cursos";
+@import "./bases/galeria";
+@import "./bases/contacto";
+
+
+
+
+
+
+
+
+
+
+
+
