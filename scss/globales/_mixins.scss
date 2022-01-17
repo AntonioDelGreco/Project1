@@ -23,6 +23,12 @@
           align-items: center;
           padding-top: 4rem;
      }
+     .span{
+       display: inline-block;
+       @media (min-width: 370px) {
+         display: inline;
+       }
+     }
     .nav ul li{
         display: block;
         @media (min-width: 950px) {
