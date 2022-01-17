@@ -402,9 +402,9 @@ body {
 
 .formulario {
   background-color: wheat;
-  padding: 5rem;
+  padding: 2rem;
   margin: -15rem auto 0 auto;
-  width: 60%;
+  width: 90%;
   border-radius: 2rem; }
   @media (min-width: 768px) {
     .formulario {
