@@ -51,9 +51,10 @@
       margin: 0 auto;
     }
     .contenedor-dos{
-      width: 100%;
-      max-width: 120rem;
+      max-width: 100%;
+      min-width: 100%;
       margin: 0 auto;
+      overflow-x: hidden;
     }
     .subrayado{
       text-decoration: underline;
