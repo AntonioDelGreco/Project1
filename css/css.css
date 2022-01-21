@@ -40,11 +40,6 @@ html {
     width: 90%;
     max-width: 120rem;
     margin: 0 auto; }
-  .body .contenedor-dos {
-    max-width: 100%;
-    min-width: 100%;
-    margin: 0 auto;
-    overflow-x: hidden; }
   .body .subrayado {
     text-decoration: underline;
     margin: 2rem; }
