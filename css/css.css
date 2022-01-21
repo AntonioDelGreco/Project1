@@ -13,7 +13,7 @@ html {
   font-family: "Kanit", sans-serif;
   background-color: #f3c193;
   width: 100%;
-  overflow-x: hidden; }
+  overflow-x: auto; }
   .body li {
     list-style: none; }
   .body a {
