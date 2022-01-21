@@ -11,8 +11,8 @@
     line-height: 2;
     font-family: $font-body;
     background-color: $color-fondo; 
-    width: 100%;
-    overflow-x: auto;
+    max-width: 100%;
+    overflow: auto;
     li{
       list-style: none;
     }

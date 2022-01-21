@@ -12,8 +12,8 @@ html {
   line-height: 2;
   font-family: "Kanit", sans-serif;
   background-color: #f3c193;
-  width: 100%;
-  overflow-x: auto; }
+  max-width: 100%;
+  overflow: auto; }
   .body li {
     list-style: none; }
   .body a {
