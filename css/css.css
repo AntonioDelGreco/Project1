@@ -7,40 +7,42 @@ html {
   box-sizing: border-box;
   font-size: 62.5%; }
 
-body {
+.body {
   font-size: 16px;
   line-height: 2;
   font-family: "Kanit", sans-serif;
-  background-color: #f3c193; }
-  body li {
+  background-color: #f3c193;
+  width: 100%;
+  overflow-x: hidden; }
+  .body li {
     list-style: none; }
-  body a {
+  .body a {
     text-decoration: none; }
-  body h1, body h2, body h3, body h4 {
+  .body h1, .body h2, .body h3, .body h4 {
     font-family: "Outfit", sans-serif;
     padding: 2rem;
     font-weight: bold; }
-  body h1 {
+  .body h1 {
     font-size: 4.8rem;
     color: white; }
-  body h2 {
+  .body h2 {
     font-size: 4rem; }
-  body h3 {
+  .body h3 {
     font-size: 3.2rem; }
-  body h4 {
+  .body h4 {
     font-size: 2.8rem; }
-  body p {
+  .body p {
     font-size: 2rem;
     line-height: 1.2; }
-  body img {
+  .body img {
     width: 100%; }
-  body .centrar-texto {
+  .body .centrar-texto {
     text-align: center; }
-  body .contenedor {
+  .body .contenedor {
     width: 90%;
     max-width: 120rem;
     margin: 0 auto; }
-  body .subrayado {
+  .body .subrayado {
     text-decoration: underline;
     margin: 2rem; }
 
@@ -55,7 +57,7 @@ body {
   text-transform: uppercase;
   border: none;
   border-radius: 1rem;
-  transition: all ease-out 0.2s; }
+  transition: all 500ms ease-out; }
   .boton:hover, .orden .boton-dos:hover {
     transform: scale(1.05);
     color: black;
@@ -89,7 +91,8 @@ body {
         .inicio .barra .span {
           display: inline; } }
     .inicio .barra .nav ul li {
-      display: block; }
+      display: block;
+      transition: all 500ms ease; }
       @media (min-width: 950px) {
         .inicio .barra .nav ul li {
           display: inline-block; } }
@@ -97,6 +100,10 @@ body {
         padding: 0.5rem 1rem;
         font-size: 2rem;
         color: white; }
+        .inicio .barra .nav ul li a:hover {
+          color: wheat; }
+      .inicio .barra .nav ul li:hover {
+        transform: scale(1.2); }
   .inicio .subtitulo {
     color: white; }
 
@@ -111,7 +118,7 @@ body {
 
 .footer {
   background-color: black;
-  width: 100%;
+  max-width: 100%;
   margin-top: 4rem; }
   .footer .barra {
     display: flex;
@@ -127,7 +134,8 @@ body {
         align-items: center;
         padding-top: 4rem; } }
     .footer .barra .nav ul li {
-      display: block; }
+      display: block;
+      transition: all 500ms ease; }
       @media (min-width: 950px) {
         .footer .barra .nav ul li {
           display: inline-block; } }
@@ -135,6 +143,30 @@ body {
         padding: 0.5rem 1rem;
         font-size: 2rem;
         color: white; }
+        .footer .barra .nav ul li a:hover {
+          color: wheat; }
+      .footer .barra .nav ul li:hover {
+        transform: scale(1.2); }
+    .footer .barra .redes {
+      display: flex;
+      flex-direction: row; }
+      .footer .barra .redes a {
+        margin: 3rem;
+        color: white;
+        font-size: 4rem;
+        transition: all 500ms ease; }
+      .footer .barra .redes .facebook:hover {
+        color: #2c2cf7;
+        transform: scale(1.4); }
+      .footer .barra .redes .instagram:hover {
+        color: #f0176a;
+        transform: scale(1.4); }
+      .footer .barra .redes .twitter:hover {
+        color: #00c3ff;
+        transform: scale(1.4); }
+      .footer .barra .redes .youtube:hover {
+        color: #f53030;
+        transform: scale(1.4); }
   .footer h2 {
     color: white; }
 
@@ -163,7 +195,8 @@ body {
         .nosotros .barra .span {
           display: inline; } }
     .nosotros .barra .nav ul li {
-      display: block; }
+      display: block;
+      transition: all 500ms ease; }
       @media (min-width: 950px) {
         .nosotros .barra .nav ul li {
           display: inline-block; } }
@@ -171,6 +204,10 @@ body {
         padding: 0.5rem 1rem;
         font-size: 2rem;
         color: white; }
+        .nosotros .barra .nav ul li a:hover {
+          color: wheat; }
+      .nosotros .barra .nav ul li:hover {
+        transform: scale(1.2); }
   .nosotros .subtitulo {
     color: white; }
 
@@ -190,7 +227,7 @@ body {
 
 .footer {
   background-color: black;
-  width: 100%;
+  max-width: 100%;
   margin-top: 4rem; }
   .footer .barra {
     display: flex;
@@ -206,7 +243,8 @@ body {
         align-items: center;
         padding-top: 4rem; } }
     .footer .barra .nav ul li {
-      display: block; }
+      display: block;
+      transition: all 500ms ease; }
       @media (min-width: 950px) {
         .footer .barra .nav ul li {
           display: inline-block; } }
@@ -214,6 +252,30 @@ body {
         padding: 0.5rem 1rem;
         font-size: 2rem;
         color: white; }
+        .footer .barra .nav ul li a:hover {
+          color: wheat; }
+      .footer .barra .nav ul li:hover {
+        transform: scale(1.2); }
+    .footer .barra .redes {
+      display: flex;
+      flex-direction: row; }
+      .footer .barra .redes a {
+        margin: 3rem;
+        color: white;
+        font-size: 4rem;
+        transition: all 500ms ease; }
+      .footer .barra .redes .facebook:hover {
+        color: #2c2cf7;
+        transform: scale(1.4); }
+      .footer .barra .redes .instagram:hover {
+        color: #f0176a;
+        transform: scale(1.4); }
+      .footer .barra .redes .twitter:hover {
+        color: #00c3ff;
+        transform: scale(1.4); }
+      .footer .barra .redes .youtube:hover {
+        color: #f53030;
+        transform: scale(1.4); }
   .footer h2 {
     color: white; }
 
@@ -242,7 +304,8 @@ body {
         .cursos .barra .span {
           display: inline; } }
     .cursos .barra .nav ul li {
-      display: block; }
+      display: block;
+      transition: all 500ms ease; }
       @media (min-width: 950px) {
         .cursos .barra .nav ul li {
           display: inline-block; } }
@@ -250,6 +313,10 @@ body {
         padding: 0.5rem 1rem;
         font-size: 2rem;
         color: white; }
+        .cursos .barra .nav ul li a:hover {
+          color: wheat; }
+      .cursos .barra .nav ul li:hover {
+        transform: scale(1.2); }
   .cursos .subtitulo {
     color: white; }
 
@@ -269,7 +336,7 @@ body {
 
 .footer {
   background-color: black;
-  width: 100%;
+  max-width: 100%;
   margin-top: 4rem; }
   .footer .barra {
     display: flex;
@@ -285,7 +352,8 @@ body {
         align-items: center;
         padding-top: 4rem; } }
     .footer .barra .nav ul li {
-      display: block; }
+      display: block;
+      transition: all 500ms ease; }
       @media (min-width: 950px) {
         .footer .barra .nav ul li {
           display: inline-block; } }
@@ -293,6 +361,30 @@ body {
         padding: 0.5rem 1rem;
         font-size: 2rem;
         color: white; }
+        .footer .barra .nav ul li a:hover {
+          color: wheat; }
+      .footer .barra .nav ul li:hover {
+        transform: scale(1.2); }
+    .footer .barra .redes {
+      display: flex;
+      flex-direction: row; }
+      .footer .barra .redes a {
+        margin: 3rem;
+        color: white;
+        font-size: 4rem;
+        transition: all 500ms ease; }
+      .footer .barra .redes .facebook:hover {
+        color: #2c2cf7;
+        transform: scale(1.4); }
+      .footer .barra .redes .instagram:hover {
+        color: #f0176a;
+        transform: scale(1.4); }
+      .footer .barra .redes .twitter:hover {
+        color: #00c3ff;
+        transform: scale(1.4); }
+      .footer .barra .redes .youtube:hover {
+        color: #f53030;
+        transform: scale(1.4); }
   .footer h2 {
     color: white; }
 
@@ -321,7 +413,8 @@ body {
         .pasteleria .barra .span {
           display: inline; } }
     .pasteleria .barra .nav ul li {
-      display: block; }
+      display: block;
+      transition: all 500ms ease; }
       @media (min-width: 950px) {
         .pasteleria .barra .nav ul li {
           display: inline-block; } }
@@ -329,6 +422,10 @@ body {
         padding: 0.5rem 1rem;
         font-size: 2rem;
         color: white; }
+        .pasteleria .barra .nav ul li a:hover {
+          color: wheat; }
+      .pasteleria .barra .nav ul li:hover {
+        transform: scale(1.2); }
   .pasteleria .subtitulo {
     color: white; }
 
@@ -337,10 +434,10 @@ body {
   grid-template-columns: 1fr;
   gap: 4rem;
   padding: 5rem; }
-  @media (min-width: 500px) {
+  @media (min-width: 768px) {
     .galeria {
       grid-template-columns: repeat(2, 1fr); } }
-  @media (min-width: 800px) {
+  @media (min-width: 992px) {
     .galeria {
       grid-template-columns: repeat(4, 1fr); } }
   .galeria .columna div img {
@@ -349,11 +446,11 @@ body {
     border-radius: 1.5rem;
     box-shadow: 0.5rem 1rem 1.5rem rgba(0, 0, 0, 0.5); }
     .galeria .columna div img:hover {
-      transform: scale(1.4); }
+      transform: scale(1.3); }
 
 .footer {
   background-color: black;
-  width: 100%;
+  max-width: 100%;
   margin-top: 4rem; }
   .footer .barra {
     display: flex;
@@ -369,7 +466,8 @@ body {
         align-items: center;
         padding-top: 4rem; } }
     .footer .barra .nav ul li {
-      display: block; }
+      display: block;
+      transition: all 500ms ease; }
       @media (min-width: 950px) {
         .footer .barra .nav ul li {
           display: inline-block; } }
@@ -377,6 +475,30 @@ body {
         padding: 0.5rem 1rem;
         font-size: 2rem;
         color: white; }
+        .footer .barra .nav ul li a:hover {
+          color: wheat; }
+      .footer .barra .nav ul li:hover {
+        transform: scale(1.2); }
+    .footer .barra .redes {
+      display: flex;
+      flex-direction: row; }
+      .footer .barra .redes a {
+        margin: 3rem;
+        color: white;
+        font-size: 4rem;
+        transition: all 500ms ease; }
+      .footer .barra .redes .facebook:hover {
+        color: #2c2cf7;
+        transform: scale(1.4); }
+      .footer .barra .redes .instagram:hover {
+        color: #f0176a;
+        transform: scale(1.4); }
+      .footer .barra .redes .twitter:hover {
+        color: #00c3ff;
+        transform: scale(1.4); }
+      .footer .barra .redes .youtube:hover {
+        color: #f53030;
+        transform: scale(1.4); }
   .footer h2 {
     color: white; }
 
@@ -405,7 +527,8 @@ body {
         .contacto .barra .span {
           display: inline; } }
     .contacto .barra .nav ul li {
-      display: block; }
+      display: block;
+      transition: all 500ms ease; }
       @media (min-width: 950px) {
         .contacto .barra .nav ul li {
           display: inline-block; } }
@@ -413,6 +536,10 @@ body {
         padding: 0.5rem 1rem;
         font-size: 2rem;
         color: white; }
+        .contacto .barra .nav ul li a:hover {
+          color: wheat; }
+      .contacto .barra .nav ul li:hover {
+        transform: scale(1.2); }
   .contacto .subtitulo {
     color: white; }
 
@@ -427,7 +554,7 @@ body {
 
 .formulario {
   background-color: wheat;
-  padding: 2rem;
+  padding: 3rem;
   margin: -15rem auto 0 auto;
   width: 90%;
   border-radius: 2rem; }
@@ -451,7 +578,7 @@ body {
 
 .footer {
   background-color: black;
-  width: 100%;
+  max-width: 100%;
   margin-top: 4rem; }
   .footer .barra {
     display: flex;
@@ -467,7 +594,8 @@ body {
         align-items: center;
         padding-top: 4rem; } }
     .footer .barra .nav ul li {
-      display: block; }
+      display: block;
+      transition: all 500ms ease; }
       @media (min-width: 950px) {
         .footer .barra .nav ul li {
           display: inline-block; } }
@@ -475,5 +603,29 @@ body {
         padding: 0.5rem 1rem;
         font-size: 2rem;
         color: white; }
+        .footer .barra .nav ul li a:hover {
+          color: wheat; }
+      .footer .barra .nav ul li:hover {
+        transform: scale(1.2); }
+    .footer .barra .redes {
+      display: flex;
+      flex-direction: row; }
+      .footer .barra .redes a {
+        margin: 3rem;
+        color: white;
+        font-size: 4rem;
+        transition: all 500ms ease; }
+      .footer .barra .redes .facebook:hover {
+        color: #2c2cf7;
+        transform: scale(1.4); }
+      .footer .barra .redes .instagram:hover {
+        color: #f0176a;
+        transform: scale(1.4); }
+      .footer .barra .redes .twitter:hover {
+        color: #00c3ff;
+        transform: scale(1.4); }
+      .footer .barra .redes .youtube:hover {
+        color: #f53030;
+        transform: scale(1.4); }
   .footer h2 {
     color: white; }

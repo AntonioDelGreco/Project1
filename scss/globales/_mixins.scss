@@ -31,6 +31,7 @@
      }
     .nav ul li{
         display: block;
+        transition: all 500ms ease;
         @media (min-width: 950px) {
           display: inline-block;
        }
@@ -38,7 +39,13 @@
           padding: 0.5rem 1rem;
           font-size: 2rem;
           color: $color-texto;
+          &:hover{
+            color: $color-decoracion;
+          }
       } 
+      &:hover{
+        transform: scale(1.2);
+      }
     }
 }
 .subtitulo{
@@ -50,7 +57,7 @@
 
 @mixin footer {
     background-color: $color-footer;
-    width: 100%;
+    max-width: 100%;
     margin-top: 4rem;
     .barra{
       display: flex;
@@ -65,19 +72,59 @@
             align-items: center;
             padding-top: 4rem;
        }
-      .nav ul li{
-          display: block;
-          @media (min-width: 950px) {
-            display: inline-block;
-         }
-          a{
-            padding: 0.5rem 1rem;
-            font-size: 2rem;
-            color: $color-texto;
-        } 
+       .nav ul li{
+        display: block;
+        transition: all 500ms ease;
+        @media (min-width: 950px) {
+          display: inline-block;
+       }
+        a{
+          padding: 0.5rem 1rem;
+          font-size: 2rem;
+          color: $color-texto;
+          &:hover{
+            color: $color-decoracion;
+          }
+      } 
+      &:hover{
+        transform: scale(1.2);
+      }
+    }
+      .redes{
+        display: flex;
+        flex-direction: row;
+        a{
+          margin: 3rem;
+          color: $color-texto;
+          font-size: 4rem;
+          transition: all 500ms ease;
+        }
+        .facebook:hover{
+          color: $color-facebook;
+          transform: scale(1.4);
+           
+        }
+        .instagram:hover{
+          color: $color-instagram;
+          transform: scale(1.4);
+        }
+        .twitter:hover{
+          color: $color-twitter;
+          transform: scale(1.4);
+        }
+        .youtube:hover{
+          color: $color-youtube;  
+          transform: scale(1.4);
+        }
       }
    }
     h2{
         color: $color-texto;
     }
 }
+
+
+
+
+
+

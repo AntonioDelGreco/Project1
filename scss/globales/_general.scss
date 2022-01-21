@@ -6,11 +6,13 @@
     box-sizing: border-box;
     font-size: 62.5%;
   }
-  body{
+  .body{
     font-size: 16px;
     line-height: 2;
     font-family: $font-body;
     background-color: $color-fondo; 
+    width: 100%;
+    overflow-x: hidden;
     li{
       list-style: none;
     }
@@ -57,20 +59,20 @@
 }
 
 .boton{
-    width: 100%;
-    padding: 1rem;
-    margin: 1rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-    background-color: rgb(53, 34, 0);
-    color: $color-decoracion;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 1rem;
-    transition: all ease-out 0.2s;   
-    &:hover{
-    transform: scale(1.05);
-    color: $color-footer;
-    background-color: $color-texto;
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: $color-boton;
+  color: $color-decoracion;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 1rem;
+  transition: all 500ms ease-out ;   
+       &:hover{
+       transform: scale(1.05);
+       color: $color-footer;
+       background-color: $color-texto;
   }
 }
