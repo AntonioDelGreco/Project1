@@ -5,15 +5,14 @@
   html{
     box-sizing: border-box;
     font-size: 62.5%;
+    width: 100%;
+    overflow: hidden;
   }
   .body{
     font-size: 16px;
     line-height: 2;
     font-family: $font-body;
     background-color: $color-fondo; 
-    max-width: 100%;
-    min-width: 100%;
-    overflow: auto;
     li{
       list-style: none;
     }
