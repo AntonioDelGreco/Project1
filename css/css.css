@@ -67,7 +67,7 @@ html {
 /* FOOTER */
 .inicio {
   background-image: url(../img/inicio.jpg);
-  height: 60rem;
+  height: 65rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
@@ -171,7 +171,7 @@ html {
 
 .nosotros {
   background-image: url(../img/nosotros.jpg);
-  height: 60rem;
+  height: 65rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
@@ -280,7 +280,7 @@ html {
 
 .cursos {
   background-image: url(../img/cursos.jpg);
-  height: 60rem;
+  height: 65rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
@@ -389,7 +389,7 @@ html {
 
 .pasteleria {
   background-image: url(../img/galería.jpg);
-  height: 60rem;
+  height: 65rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
@@ -503,7 +503,7 @@ html {
 
 .contacto {
   background-image: url(../img/contacto.jpg);
-  height: 60rem;
+  height: 65rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }

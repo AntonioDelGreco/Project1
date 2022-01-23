@@ -1,7 +1,7 @@
 /* BG PRINCIPALES */
 
 @mixin bg {
-  height: 60rem;
+  height: 65rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -50,7 +50,7 @@
 }
 .subtitulo{
     color: $color-texto;
-}
+  }
 }
 
 /* FOOTER */
