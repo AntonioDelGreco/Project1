@@ -86,7 +86,7 @@ html {
         padding-top: 4rem; } }
     .inicio .barra .span {
       display: inline-block; }
-      @media (min-width: 370px) {
+      @media (min-width: 400px) {
         .inicio .barra .span {
           display: inline; } }
     .inicio .barra .nav ul li {
@@ -190,7 +190,7 @@ html {
         padding-top: 4rem; } }
     .nosotros .barra .span {
       display: inline-block; }
-      @media (min-width: 370px) {
+      @media (min-width: 400px) {
         .nosotros .barra .span {
           display: inline; } }
     .nosotros .barra .nav ul li {
@@ -299,7 +299,7 @@ html {
         padding-top: 4rem; } }
     .cursos .barra .span {
       display: inline-block; }
-      @media (min-width: 370px) {
+      @media (min-width: 400px) {
         .cursos .barra .span {
           display: inline; } }
     .cursos .barra .nav ul li {
@@ -408,7 +408,7 @@ html {
         padding-top: 4rem; } }
     .pasteleria .barra .span {
       display: inline-block; }
-      @media (min-width: 370px) {
+      @media (min-width: 400px) {
         .pasteleria .barra .span {
           display: inline; } }
     .pasteleria .barra .nav ul li {
@@ -522,7 +522,7 @@ html {
         padding-top: 4rem; } }
     .contacto .barra .span {
       display: inline-block; }
-      @media (min-width: 370px) {
+      @media (min-width: 400px) {
         .contacto .barra .span {
           display: inline; } }
     .contacto .barra .nav ul li {
