@@ -12,7 +12,7 @@ html {
   line-height: 2;
   font-family: "Kanit", sans-serif;
   background-color: #f3c193;
-  overflow: hidden; }
+  overflow-x: hidden; }
   .body li {
     list-style: none; }
   .body a {
