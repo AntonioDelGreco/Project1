@@ -11,7 +11,6 @@
     line-height: 2;
     font-family: $font-body;
     background-color: $color-fondo; 
-    overflow-x: hidden;
     li{
       list-style: none;
     }
@@ -50,6 +49,7 @@
       width: 90%;
       max-width: 120rem;
       margin: 0 auto;
+      overflow-x: hidden;
     }
     .subrayado{
       text-decoration: underline;
